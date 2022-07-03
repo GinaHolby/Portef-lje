@@ -1,0 +1,32 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+
+}
+
+.skoleoppgaver{
+    
+    max-width: 700px;
+    
+    margin: auto;
+ 
+    
+}
+.oppgave {
+
+    padding: 50px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    
+
+    
+}
+
+.oppgave img{
+    width: 100%;
+}
+
+.oppgave a{
+    display: block;
+}
