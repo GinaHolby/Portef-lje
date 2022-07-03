@@ -1,8 +1,18 @@
-.menu{
+.header{
     display: flex;
-    justify-content: space-around;
-    border-bottom: 1px solid black;
+    justify-content: center;
+    align-items: flex-end;
 
+    border-bottom: 1px solid black;
+    padding: 24px;
+    gap: 130px;
+    
+
+}
+.title {
+    display: flex;
+    align-items: flex-end;
+    gap: 16px;
 }
 
 .skoleoppgaver{
@@ -10,14 +20,19 @@
     max-width: 700px;
     
     margin: auto;
+
+
  
     
 }
 .oppgave {
 
-    padding: 50px;
+    
+    padding: 24px;
     background-color: whitesmoke;
     border-radius: 15px;
+    gap: 24px;
+    margin: 24px 0;
     
 
     
@@ -25,8 +40,10 @@
 
 .oppgave img{
     width: 100%;
+    padding: 24px 0;
 }
 
 .oppgave a{
     display: block;
 }
+
