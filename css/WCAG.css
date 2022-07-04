@@ -1,0 +1,54 @@
+.sky{
+    background-color: #F4F7FA;
+}
+
+.WCAG1{
+    width: 700px;
+}
+
+
+.ground{
+    width: 100vw;
+    height: 3000px;
+    background-color: #1E2B3C;
+    border-radius: 2000px;
+}
+
+main{
+    width: 700px;
+    margin: auto;
+    position: relative;
+    top: 400px;
+    z-index: 2;
+    color:#F4F7FA;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 54px;
+    text-align: center;
+}
+
+.LEKAG{
+    position: relative;
+    left: 50%;
+    top: 10px;
+    transform: translate(-50%);
+    height: 300px;
+}
+
+.illustration{
+    position: absolute;
+    z-index: 1;
+}
+
+.problemstilling{
+    width: 500px;
+    margin: auto;
+    gap: 24;
+}
+
+.painpointsbox{
+    display: flex;
+    gap: 24px;
+}
+
