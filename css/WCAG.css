@@ -1,21 +1,31 @@
 .sky{
-    background-color: #F4F7FA;
+    background-color: #F4F7FA;  
 }
 
-.WCAG1{
-    width: 700px;
+.figma-logo{
+    width: 30px;
+    position: absolute;
+    top: 112px;
+    left: 32px;
 }
 
-
-.ground{
+.groundCircle{
     width: 100vw;
-    height: 3000px;
+    height: 1650px;
     background-color: #1E2B3C;
-    border-radius: 2000px;
+    border-radius: 500px;
+}
+.groundSquare{
+    width: 100vw;
+    height: 600px;
+    background-color: #1E2B3C;
+    position: absolute;
+    bottom: 0;
+    
 }
 
 main{
-    width: 700px;
+    width: 800px;
     margin: auto;
     position: relative;
     top: 400px;
@@ -23,8 +33,7 @@ main{
     color:#F4F7FA;
     display: flex;
     flex-direction: column;
-    
-    gap: 54px;
+    gap: 56px;
     text-align: center;
 }
 
@@ -43,12 +52,55 @@ main{
 
 .problemstilling{
     width: 500px;
-    margin: auto;
+    margin: 24px auto;
     gap: 24;
+    text-align: center;
 }
 
-.painpointsbox{
+
+.titletext{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+
+.solutionsgrid{
+    display: grid;
+    grid-template-columns: 140px auto ;
+
+    text-align: left;
+    gap: 56px;
+
+    
+
+    
+}
+.studieteknikker{
     display: flex;
-    gap: 24px;
+    gap: 16px;
+}
+.studieteknikker img{
+    width: 130px;
 }
 
+.WCAGtree{
+    display: flex;
+    gap: 16px;
+}
+.WCAGtree img{
+    border-radius: 50%;
+    width: 130px;
+}
+
+.prototype{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.prototype img{
+    width: 220px;
+    height: 400px;
+    border-radius: 12px;
+    
+    
+}

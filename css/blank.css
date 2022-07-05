@@ -8,4 +8,30 @@
 
 body{
     background-color: white;
+    width: 100vw;
+}
+h1{
+    font-family: 'Courgette', cursive;
+    font-family: 'Quicksand', sans-serif;
+}
+h2{
+    
+    font-family: 'Quicksand', sans-serif;
+
+}
+h3{
+    font-family: 'Quicksand', sans-serif;
+
+}
+h4{
+    font-family: 'Quicksand', sans-serif;
+
+}
+h5{
+    font-family: 'Quicksand', sans-serif;
+
+}
+h6{
+    font-family: 'Quicksand', sans-serif;
+
 }
